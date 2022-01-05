@@ -23,6 +23,8 @@ fun main() {
     //Диапазоны
     println(5 in 3..10) // true
 
+    repeat(items2.size){ println("Repeat") }
+
     for (i in 1..20)
         print(i)
         println()

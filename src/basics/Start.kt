@@ -1,18 +1,17 @@
 package basics
 
-class Start {
-}
 fun main(){
-    println("Hello World!")
+    var s = "hello World!"
 
-    val test1 = "Hello Guys "
-    var test2 = "Hii"
-    //or
-    var test3: String = "or like this"
+    val input = readLine()
+    println(input?.uppercase())
 
-    var test4 = 4
-    var test5: Double = 5.5;
+    println(s.first())
+    println(s.last())
+    println(s.startsWith("He"))
+    println(s.replaceFirstChar { e -> e.uppercaseChar()})
+    println(s.trim())  // removes the spaces
+    println(s.replace("World", "person"))
+    println(s.split(""))
 
-    println("Value of ${test1 + test2}")
-    println("Value of ${test4 + test5}")
 }
