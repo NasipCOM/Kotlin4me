@@ -1,4 +1,4 @@
-package Others.SingleTone
+package others.SingleTone
 
 /*
 * You can create only one object, only this object

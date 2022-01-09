@@ -1,4 +1,4 @@
-package Others.generics
+package others.generics
 
 
 class Stack<T>(vararg val items: T){

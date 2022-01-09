@@ -1,4 +1,4 @@
-package Others.Enum
+package others.Enum
 
 class Car(var color: Color){
 

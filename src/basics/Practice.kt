@@ -26,6 +26,9 @@ fun isPrime(num: Int):Boolean{
 
 fun mergeArrays(arr1:List<Int> = listOf(5, 2, 1, 0), arr2:List<Int> = listOf(20,-30, -40)):List<Int>{
     val mergedArr = mutableListOf<Int>()
+    val newArr = arrayOf(1, 2, 3)
+    var mergedNew = mutableListOf(*newArr)
+    println("This $mergedNew")
     arr1.forEach{ i -> mergedArr.add(i)}
     arr2.forEach{ i -> mergedArr.add(i)}
     mergedArr.sortDescending()
