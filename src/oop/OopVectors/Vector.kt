@@ -1,4 +1,4 @@
-package oop.OopPractice
+package oop.OopVectors
 
 import kotlin.math.sqrt
 

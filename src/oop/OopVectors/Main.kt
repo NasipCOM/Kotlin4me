@@ -1,4 +1,4 @@
-package oop.OopPractice
+package oop.OopVectors
 
 fun main() {
     var v1 = Vector(4.0, 6.0, 8.0)
